@@ -1,0 +1,29 @@
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Local configuration and macOS
+.env
+.env.*
+!.env.example
+.DS_Store
+
+# Downloaded data, features, training logs and model weights
+cache/
+.cache/
+data/
+datasets/
+runs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Video recordings
+*.mp4
+*.mov
